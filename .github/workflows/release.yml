@@ -23,6 +23,6 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: charts
-          charts_repo_url: xxxxxx
+          charts_repo_url: https://erlisb.github.io/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
